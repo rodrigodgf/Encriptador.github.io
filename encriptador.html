@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+     <title>ENCRIPTADOR</title>
+    
+    <link rel="stylesheet" href="styleen.css">
+    
+</head>
+
+
+<body>
+    <header>
+        <img src="./imagenes/Vector.png" alt="logo de alura con la inicial a">
+
+    </header>
+
+    <main>
+        <section class="izq">
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese texto aqui"></textarea>
+            <p>  - Solo letras minusculas y sin acentos</p>
+            <div class="botones">
+                <button class="encriptar" onclick="botonencriptar()">ENCRIPTAR </button>
+
+                <button class="desencriptar" onclick="botondesencriptar()">DESENCRIPTAR</button>
+            </div>
+        </section>
+
+        <section class="der">
+            <textarea class="mensaje" cols="18" rows="8"></textarea>
+
+            <button class="copiar" onclick="copiar()">COPIAR</button>
+        </section>
+       
+    
+    </main>
+
+<script src="encrip.js"></script> 
+</body>
